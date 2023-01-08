@@ -44,7 +44,7 @@ See these example sites for the example bios and the info that you can include:
 
 | As Web Page | As GitHub Markdown Source |
 |-------------|---------------------------|
-| <https://ucsb-teaching-cs.github.io/s21/staff> | https://github.com/ucsb-teaching-cs/s21/tree/main/_staffers |
+| <https://ucsb-teaching-cs.github.io/s21/staff> | <https://github.com/ucsb-teaching-cs/s21/tree/main/_staffers> |
 | <https:///ucsb-csw8.github.io/s22/staff> | <https://github.com/ucsb-csw8/s22/tree/main/_staffers> |
 | <https://ucsb-csw8.github.io/w23c/staff/> | <https://github.com/ucsb-csw8/w23c/tree/main/_staffers> |
 | <https://ucsb-csw8.github.io/w23k/staff/> | <https://github.com/ucsb-csw8/s22/tree/main/_staffers> |
