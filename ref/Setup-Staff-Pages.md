@@ -113,8 +113,10 @@ The repo for your course's website will be under the `ucsb-csw8` github organiza
 | Winter 2023 <br />(Conrad)      | w22c       | <https://github.com/ucsb-csw8/w22c> |
 | Winter 2023 <br />(Kharitonova) | w22k       | <https://github.com/ucsb-csw8/w22k> |
 
-## Step 3: Fork the course website
+## Step 3: Create a fork
 
+Create a forked copy of the course website repo under your own GitHub account.
+	
 <details>
 <summary>
 If aren't familiar with how to 'fork a repo' click the ▶ character at left to open this section and learn more.
