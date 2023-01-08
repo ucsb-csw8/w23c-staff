@@ -193,6 +193,9 @@ Follow these steps as illustrated in the animation below
 
 Now submit a pull request from your forked copy to the original repo.   The pull request, if done properly should show only that the files changes are the addition of your photo under `assets/images`, and the addition of the .md file for your bio under `_staffers`. 
 	
+Be sure that the `base repo` shown is the one for your course; if that one was forked from another repo, the default might be that earlier repo instead
+of the one you want, so you might need to change it.
+	
 <details>
 <summary>
 If you aren't sure what a pull request is, or how to submit one click the ▶ character at left to open this section and you'll see an animation and explanation.
@@ -207,10 +210,16 @@ To submit a pull request:
 
 1. Navigate to the web page for the original repo.
 2. Click the Pull Requests tab, then the green `New Pull Request` button at upper right.
-3. You want the *base repository* to be the one in the `ucsb-csw8` organization, and you want the *head repository* to be your fork.  The arrow should show the direction in which the changes are flowing, from your fork to the main repo.  This may come up by default, but if not, you may need to adjust what you see at the top of the page, including possibly toggling the `compare across forks` link.
+3. You want the *base repository* to be the one in the `ucsb-csw8` organization for *your course* and you want the *head repository* to be your fork.  
+   * In the example animation below, at first the base repo shows `w23c` instead of `w23k`.  That's because `w23k` was forked from `w23c`, so by default, the pull request is going to the top of the fork tree.  We have to manually select `w23k` if that's the repo we want.  
+   * The arrow should show the direction in which the changes are flowing, from your fork to the main repo.  
+   * Sometimes you may need to toggle the `compare across forks` link to get the proper options to show up.
 4. Click the green `Create Pull Request` button again.
+5. Verify that the changes shown are the ones you want (i.e. just your new bio and the new image).
+6. Fill in a commit message and an optional longer description as shown in the animation.
+7. Copy the URL for the pull request; we'll send a message with that URL in the next step.
 	
-
+![pull-request](https://user-images.githubusercontent.com/1119017/211181273-deca4f7f-5257-4741-b7b6-0425fee959f1.gif)
 	
 </details>
 
@@ -218,6 +227,7 @@ To submit a pull request:
 	
 Now that you have a pull request, there will be a URL for that pull request, e.g.
 
+* <https://github.com/ucsb-csw8/w23k/pull/5>
 	
 Through whatever means your instructor advised (email, slack, etc.) let them know that you've made your pull request, and 
 send them the url to the pull request.
