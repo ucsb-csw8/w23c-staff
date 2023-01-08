@@ -98,54 +98,34 @@ The repo for your course's website will be under the `ucsb-csw8` github organiza
 If aren't familiar with how to 'fork a repo' click the ▶ character at left to open this section and learn more.
 </summary>
 
-Navigate to the course repo. In the instrucitons below, I'm showing the interface for
-the `w23k` repo:
+Navigate to the course repo. In the instructions below, I'm showing the interface for
+the `w23k` repo.  Then, as shown in the animation below, click on the button at the upper right labeled "Fork" and proceed to
+create a fork of the repo under your own github id (the `owner` will show as your GitHub id, e.g. `pconrad` in the animation shown below.)
 
+![fork-w23k](https://user-images.githubusercontent.com/1119017/211179628-035e335f-60b6-4af0-abfe-9252e74f67c2.gif)
 
+You have now created a fork.
 
+We will refer to it as a `PROJECT_REPO_FORK`
 
-We will use this course's repository in order for you to practice the open-source model of collaborating on a `PROJECT_REPO`. 
-
-In the open-source model, there is one or more owner and maintainer of the project repository.
-
-Typically, you as a contributor do not have a direct access to making changes to the repo -- the way you contribute is by submitting your suggestions/modifications via **Pull Requests**.
-
-In this example, we will be referring to this course's website as the `PROJECT_REPO`.
-
-### Fork the repo
-
-**Fork** the `PROJECT_REPO` using the GitHub interface. 
-
-You can get the `PROJECT_REPO` URL/address by clicking on the green "Code" button on the GitHub's website.
-
-Note that **the _forked_ repo will produce a different URL** (i.e., web address) for each person who forked this repo. We will refer to it as a `PROJECT_REPO_FORK`.
-
-You'll be making changes in your forked copy.
+What happens next is that you'll make changes in your forked copy, then do what's called a *Pull Request* back to the original course website repo (i.e. the `PROJECT_REPO`.)
 
 </details>
 
+## Step 4: Make Changes in the Forked Copy to add your own Bio
 
+You can now make changes to the forked copy to add your own bio.  The most straightforward way to do that, if you haven't worked with git/GitHub before, is to do this through the GitHub web interface; but if you are comfortable with Git/GitHub, you may do it using git at the command line.
 
+Under the directory `_staffers` add a file with your name as the filename, and `.md` as the file extension, for example `ChrisGaucho.md`.   The contents of this file are explained below.	
 
+<details>
+<summary>
+If aren't familiar with how to make changes using GitHub, click the ▶ character at left to open this section and learn more.
+</summary>
 
-------
-------
-------
-
-
----
-
-At this point, you have two alternative routes that you can take (each is described in its respective section below):
-* you can continue adding the files using the GitHub web interface
-* you can continue adding the files using `git` and the command line
-
-You will need to make the changes to **your fork** using _one_ of the above options. 
-Then, when you have your picture and bio uploaded, you will need to **submit a Pull Request** (PR) via the GitHub web interface.
-
----
-
-### Add your files using the GitHub interface
-
+</details>
+	
+	
 In this assignment we ask you submit a recent photo and bio to share with our students. The idea is to help them get to know you better.
 If you really don't want your photo on the website, use the image that's listed in the `_example.md` file.
 
