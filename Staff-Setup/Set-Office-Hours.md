@@ -5,31 +5,6 @@ parent: "Staff Setup"
 nav_order: 3
 ---
 
-<style>
- summary { 
-     border: 4px solid #9CBEBE;
-     padding: 0.5em;
-     background-color:  #DAE6E6;
-     margin-bottom: 0.5em;
- }
-
- summary p {
-  margin: 0px;
-  padding 0px;
-  display: inline-block;
- }
-    
- details { 
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    border: 4px solid #047C91;
-    padding: 0.5em;
- }
-</style>
-
 # {{page.title}}
 
 Your instructor should have set up a Google Calendar where you can add all of your office hours.
