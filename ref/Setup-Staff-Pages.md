@@ -47,7 +47,7 @@ See these example sites for the example bios and the info that you can include:
 | <https://ucsb-teaching-cs.github.io/s21/staff> | <https://github.com/ucsb-teaching-cs/s21/tree/main/_staffers> |
 | <https:///ucsb-csw8.github.io/s22/staff> | <https://github.com/ucsb-csw8/s22/tree/main/_staffers> |
 | <https://ucsb-csw8.github.io/w23c/staff/> | <https://github.com/ucsb-csw8/w23c/tree/main/_staffers> |
-| <https://ucsb-csw8.github.io/w23k/staff/> | <https://github.com/ucsb-csw8/s22/tree/main/_staffers> |
+| <https://ucsb-csw8.github.io/w23k/staff/> | <https://github.com/ucsb-csw8/w23k/tree/main/_staffers> |
 
 You can use these as an inspiration to write your bio and select a picture that you'd like to share with students.
 
@@ -110,8 +110,8 @@ The repo for your course's website will be under the `ucsb-csw8` github organiza
 | Spring 2022                     | s22        | <https://github.com/ucsb-csw8/s22> |
 | Summer 2022 <br />(Kharitonova) | m22-ykk    | <https://ucsb-csw8.github.io/m22-ykk/> |
 | Summer 2022 <br />(Elsayed)     | m22-shereen| <https://ucsb-csw8.github.io/m22-shereen/> |
-| Winter 2023 <br />(Conrad)      | w22c       | <https://github.com/ucsb-csw8/w22c> |
-| Winter 2023 <br />(Kharitonova) | w22k       | <https://github.com/ucsb-csw8/w22k> |
+| Winter 2023 <br />(Conrad)      | w22c       | <https://github.com/ucsb-csw8/w23c> |
+| Winter 2023 <br />(Kharitonova) | w22k       | <https://github.com/ucsb-csw8/w23k> |
 
 ## Step 3: Create a fork
 
