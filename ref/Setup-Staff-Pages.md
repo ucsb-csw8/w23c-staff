@@ -176,10 +176,16 @@ If you aren't sure how click the ▶ character at left to open this section and 
 </summary>
 	
 Follow these steps as illustrated in the animation below
-	
-1. Fill this in
 
-	
+1. Have a file called YourName.png somewhere on your hard drive
+2. Navigate to your forked repo
+3. Click on the `assets/images` directory
+4. Click Upload Files
+5. Locate the YourName.png file
+6. Scroll down and click "Commit Changes"
+
+![upload-image](https://user-images.githubusercontent.com/1119017/211181012-2cef06f8-67c9-4f2d-8b21-bc77a7098d9d.gif)
+
 </details>	
 	
 	
@@ -204,9 +210,9 @@ To submit a pull request:
 3. You want the *base repository* to be the one in the `ucsb-csw8` organization, and you want the *head repository* to be your fork.  The arrow should show the direction in which the changes are flowing, from your fork to the main repo.  This may come up by default, but if not, you may need to adjust what you see at the top of the page, including possibly toggling the `compare across forks` link.
 4. Click the green `Create Pull Request` button again.
 	
-TODO: Insert animation
 
-</summary>
+	
+</details>
 
 ## Step 7: Notify your instructor (or whomever they designated)
 	
