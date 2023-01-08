@@ -8,7 +8,10 @@ permalink: pretty
 
 incremental: true
 
-title: "CSW 8"
+title: "CSW 8 W23 Staff"
+
+baseurl: '/w23c' # the subpath of your site, e.g. /blog
+
 
 kramdown:
    # This makes sure we can put markdown inside html tags such as
