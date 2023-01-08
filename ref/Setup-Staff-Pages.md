@@ -24,28 +24,27 @@ See these example sites for the example bios and the info that you can include:
 | <https://ucsb-csw8.github.io/w23c/staff/> | <https://github.com/ucsb-csw8/w23c/tree/main/_staffers> |
 | <https://ucsb-csw8.github.io/w23k/staff/> | <https://github.com/ucsb-csw8/s22/tree/main/_staffers> |
 
-
 You can use these as an inspiration to write your bio and select a picture that you'd like to share with students.
 
 # Technical Steps
-
-1. You will need a GitHub account; you can sign up for one at <https://github.com> on the free plan.  (You may also like to get the GitHub Student Developer Pack at <https://education.github.com/pack> but you won't need that to create your bio.)
-
-https://ucsb-teaching-cs.github.io/s21/hw/adding_bio/
-
-In the instructions, a PROJECT_REPOrefers to our GitHub repository (repo) that hosts our course website: https://github.com/ucsb-csw8/s22
-
-For the naming convention, you can just use FirstName-LastInitial.png. (or whatever is your image extension; please don't use .tiff or .bmp)
-==> I also included a templated bio file in the _staffers folder (it's called _example.md): feel free to copy its contents and create a new .md file with your NetID in which you can paste/update the info in the example.
-
-If something is unclear in the instructions, please don't hesitate to reply to this email, directly to me (ykk), and ask for clarification! It helps make sure that those without any git/GitHub experience can follow the steps and get experience. :-)
 
 ## Step 1: Log into your GitHub account.
 
 <details>
 <summary>
+If you don't have a GitHub account yet click the ▶ character at left for instructions on creating one
+</summary>
+
+You will need a GitHub account; you can sign up for one at <https://github.com> on the free plan.  (You may also like to get the GitHub Student Developer Pack at <https://education.github.com/pack> but you won't need that to create your bio.)
+
+</details>
+
+<details>
+	
+<summary>
 If you need basic background on git/GitHub click the ▶ character at left
 </summary>
+	
 ## Version Control
 
 First, a bit of background.
@@ -53,6 +52,7 @@ First, a bit of background.
 git and GitHub are two of the currently popular tools to keep track of the changes in text-based files.
 
 ### What's the difference between git and GitHub?
+	
 A lot of times you'll hear people use these terms interchangeably but that's not entirely correct.
 
 **git** runs locally on your computer and keeps track of the changes that you make to the files on your machine.
@@ -73,12 +73,9 @@ These visual guides might also be helpful in exposing what's going on behind eac
 * Version Control with Git <https://zuckermanbrain.github.io/git-novice>
 * A Visual Git Reference <https://marklodato.github.io/visual-git-guide/index-en.html>
 
-
 </details>
 
-
 ## Step 2: Locate the repo for your course's website
-
 
 The repo for your course's website will be under the `ucsb-csw8` github organization, and probably has a name that follows the naming conventions shown here:
 
@@ -104,11 +101,9 @@ create a fork of the repo under your own github id (the `owner` will show as you
 
 ![fork-w23k](https://user-images.githubusercontent.com/1119017/211179628-035e335f-60b6-4af0-abfe-9252e74f67c2.gif)
 
-You have now created a fork.
+You have now created a fork of the original repo (e.g. `github.com/pconrad/w23k` or `github.com/cgaucho/w23c`).
 
-We will refer to it as a `PROJECT_REPO_FORK`
-
-What happens next is that you'll make changes in your forked copy, then do what's called a *Pull Request* back to the original course website repo (i.e. the `PROJECT_REPO`.)
+What happens next is that you'll make changes **in your forked copy**, then do what's called a *Pull Request* back to the original course website repo.
 
 </details>
 
@@ -116,141 +111,97 @@ What happens next is that you'll make changes in your forked copy, then do what'
 
 You can now make changes to the forked copy to add your own bio.  The most straightforward way to do that, if you haven't worked with git/GitHub before, is to do this through the GitHub web interface; but if you are comfortable with Git/GitHub, you may do it using git at the command line.
 
-Under the directory `_staffers` add a file with your name as the filename, and `.md` as the file extension, for example `ChrisGaucho.md`.   The contents of this file are explained below.	
+Under the directory `_staffers` add a file with your name as the filename, and `.md` as the file extension, for example `ChrisGaucho.md`.   The contents of this file should be similar to those in `_example.md` (or the other examples files shown.)
 
 <details>
 <summary>
-If aren't familiar with how to make changes using GitHub, click the ▶ character at left to open this section and learn more.
+If aren't familiar with how to make changes using GitHub, click the ▶ character at left to open this section and you'll see an animation and explanation.
 </summary>
+	
+Follow these steps as illustrated in the animation below
+	
+1. Navigate to the website, and click on the directory `_staffers`
+2. Click on the `_example.md` file and then click the pencil icon to edit it.
+3. Copy the contents, and then cancel out of edit mode.
+4. Click to add a new file, and call the file `ChrisGaucho.md` (or whatever your name is followed by `.md`)
+5. Paste in the contents from `_example.md`
+6. Edit to change it to your own content.
 
+![create-chris-gaucho md](https://user-images.githubusercontent.com/1119017/211180246-bd8a25eb-6313-4d34-b728-b48f9bb6065e.gif)
+	
 </details>
 	
+## Step 5: Optional, but encouraged: Upload a photo
+
+If you really don't want to have a photo on the website, you can leave the line from `_example.md` that looks like this:
 	
-In this assignment we ask you submit a recent photo and bio to share with our students. The idea is to help them get to know you better.
-If you really don't want your photo on the website, use the image that's listed in the `_example.md` file.
-
-#### Step 1: Navigate to your fork
- In the browser, open up the `PROJECT_REPO_FORK`. (_Note that you need to open **your fork**_, not the original course repo.)
-
-#### Step 2: Upload your picture
-* Navigate to the `assets/images` folder and select "Upload files" from the "Add file" dropdown. 
-	* Use an image that shows your face and helps students recognize you.
-	* Use a **square** PNG image (300x300 px max resolution).
-	* Use the naming convention `XX-QQQ-FirstName-LastInitial.png`, where `XX` is the course number that you are tutoring for (e.g., `CS08`, `CS09`,  `CS16`, `CS24`, `CS90DA`,  `CS130`, `CS130B`, `CS148`, `CS156`) and `QQQ` is this quarter (e.g., `W21`, `S21`)
-
-* After uploading your image, remember to "Commit changes".
-	* Save the filename for the image that you uploaded.
-
-#### Step 3: Upload your bio
-Now, navigate to the `_staffers` folder in the `PROJECT_REPO_FORK` GitHub repo. 
-
-* Select "Create new file" from the "Add file" dropdown. 
-* Name your file `NETID.md` making sure to substitute _your_ `NETID` (all **lowercase**) before the `.md` part (`NETID` is the part that comes before your `@ucsb.edu`).
-* Copy the following template and update the fields accordingly.
-	* Leave the opening and closing dashes intact.
-	* Update your `name`
-	* Update the `pronouns` to only include yours
-	* Leave the `role` as the `Undergraduate Learning Assistant` (_don't change it or add anything to it_)
-	* Use the base filename (not the path) for the `photo` that you uploaded (_make sure that you added it to the correct folder_)
-	* Add your bio - please, **do not** list your contact information as part of your bio.
-
 ```
----
-name: Your Name
-pronouns: She/her Him/his They/their
-role: Undergraduate Learning Assistant
-ula_for: CS X
-photo: image.png
----
-
-Write your bio and a welcome message for the students in your course (300 to 400 words). 
+photo: 404.png
 ```
 
-* Remember to "Commit changes".
+However, we encourage you instead to upload a photo into the directory `assets/images`.
+	
+* Use an image that shows your face and helps students recognize you.
+* Use a **square** PNG image (300x300 px max resolution).
+* Call it `YourName.png`, e.g. `ChrisGaucho.png`
 
----
+<details>
+<summary>
+If you aren't sure how click the ▶ character at left to open this section and you'll see an animation and explanation.
+</summary>
+	
+Follow these steps as illustrated in the animation below
+	
+1. Fill this in
 
+	
+</details>	
+	
+	
+## Step 6: Submit a pull request
 
+Now submit a pull request from your forked copy to the original repo.   The pull request, if done properly should show only that the files changes are the addition of your photo under `assets/images`, and the addition of the .md file for your bio under `_staffers`. 
+	
+<details>
+<summary>
+If you aren't sure what a pull request is, or how to submit one click the ▶ character at left to open this section and you'll see an animation and explanation.
+</summary>
+	
+	
+You now have a forked copy of the course website with your changes. The next step is to request that the person in charge of the course website (typically the instructor, or possibly one of the course staff) does a *pull* to pull your changes from the forked copy into the official copy of the repo for the course website.
 
+This is done through what is called a pull request.
+	
+To submit a pull request:
 
-### Add your files using the command line
+1. Navigate to the web page for the original repo.
+2. Click the Pull Requests tab, then the green `New Pull Request` button at upper right.
+3. You want the *base repository* to be the one in the `ucsb-csw8` organization, and you want the *head repository* to be your fork.  The arrow should show the direction in which the changes are flowing, from your fork to the main repo.  This may come up by default, but if not, you may need to adjust what you see at the top of the page, including possibly toggling the `compare across forks` link.
+4. Click the green `Create Pull Request` button again.
+	
+TODO: Insert animation
 
+</summary>
 
-#### Clone the (forked) repo
+## Step 7: Notify your instructor (or whomever they designated)
+	
+Now that you have a pull request, there will be a URL for that pull request, e.g.
 
-Now that you have your own fork `PROJECT_REPO_FORK` (i.e., copy of the `PROJECT_REPO`), which is connected to the main `PROJECT_REPO`, it's time to **clone** the fork to your local computer.
-
-You can get the `PROJECT_REPO_FORK` URL/address by clicking on the green "Code" button on the GitHub's website. 
-
-> To quickly check that you are cloning the correct repo (i.e., the fork, not the main project), look at the name of the repo in the top left portion of the website: it should show `YOUR_GITHUB_USERNAME / PROJECT_REPO` and underneath it should say **"forked from"** and link to the main `PROJECT_REPO` address.
-
-To clone  `PROJECT_REPO_FORK` to your computer, open a Terminal window and type:
-```
-git clone PROJECT_REPO_FORK
-```
-
-**Note**: if you type `pwd` (i.e., _print working directory_) it will produce a path to the folder on your computer which now contains a cloned version of your forked repo (`PROJECT_REPO_FORK`). 
-
-You can verify that the new repo is there by running `ls -l` (Note: _these are not ones (1) but "ells" (lowercase Ls)_). Once you run the `ls` command you should see your `PROJECT_REPO_FORK` folder on the list.
-
-Congrats! You can now switch to that folder by typing
-```
-cd PROJECT_REPO_FORK
-```
-
-If you run `ls` you should see the README.md and other files in this repo.
-
-Woohooo! We are done with the setup and are ready to start working with the files.
-
----
-
-Follow the instructions and requirements above for uploading your picture and the bio. 
-
-Since you are working on the command line you'll need to add
-* your picture to the `assets/images` folder
-* your bio to the `_staffers` folder
-
-
-#### Add the files to your fork
-
-* Verify that your changes are detected by running `git status`. It tells you which files you have modified. 
-* If the file that you created is "red" in the "Untracked files" category, make git aware that it needs to keep track of it: Add the changes by running `git add`, followed by the path/name of your files.
-* See the difference by running `git status` and make sure that only the files you intended to change are “green”.
-* Commit your changes by running this on the command line: `git commit -m "Added a profile picture and the bio."`
-* Make your change show up on your fork's github repo website by pushing this commit to the repo using `git push` (note: not including `origin <branchname>` after `git push` defaults to `origin master`).
-
-**This commit and the correspending files now live in _your fork_ and not in the main `PROJECT_REPO`.**
-
-When you are ready for your changes/files to show up on the main website, **submit a Pull Request (PR)**.
-
-### Submit a Pull Request (PR)
-
-In order for your changes to be added to the main `PROJECT_REPO`, you need to issue a **Pull Request** (usually abbreviated as PR).
-
-Pull Requests (PRs) are typically issued through the GitHub web interface. 
-
-To submit a PR go to the `PROJECT_FORK_REPO` page on GitHub. Click on the "Pull Requests" **tab** and click on the green "New Pull Request" button.
-
-**Important**: make sure to select the "`compare across forks`" link and then set the `base` and `head` repositories and branches accordingly.
-
-Fill out the necessary information and then to finalize your PR, click on the green "Create Pull Request".
-
+	
+Through whatever means your instructor advised (email, slack, etc.) let them know that you've made your pull request, and 
+send them the url to the pull request.
+	
+And that's it! 	
+	
 ---------
-
-# Acknowledgement / Contact Me
-
-If you have any questions or suggestions, don't hesitate to reach out to me via ykk@ucsb edu (remember to replace a space with a `.` between the `ucsb` and `edu`).
 
 For attribution, please keep the reference to the author:
 
 > Content developed and released under the CC BY 4.0 by Yekaterina Kharitonova.
 
-------
-
-If you would like us to add or correct anything, feel free to use the `edit this page on GitHub` link below and then submit a Pull Request from your forked repo.
+If you would like us to add or correct anything in these instructions, feel free to use the `edit this page on GitHub` link below and then submit a Pull Request from your forked repo.
 
 **Acknowledgement**
 
 Developed by Yekaterina Kharitonova and edited by Phill Conrad
 {: .fs-2 }
-
