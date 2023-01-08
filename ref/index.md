@@ -1,13 +1,10 @@
 ---
 layout: default
-title: References
+title: "Staff Setup"
 nav_order: 9
 has_children: true
-permalink: ref
+permalink: staff-setup
 ---
 
-# References
-{: .no_toc }
+# {{ page.title }}
 
-Course reference pages
-{: .fs-6 .fw-300 }
