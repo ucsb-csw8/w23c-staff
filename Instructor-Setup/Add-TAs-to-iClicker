@@ -1,0 +1,14 @@
+---
+layout: home
+title: "Add TAs to iClicker" 
+parent: "Instructor Setup"
+nav_order: 3
+---
+
+# {{page.title}}
+
+In the iClicker Cloud product, you'll see three dots next to your course:
+
+Click on those, and click "View Course Online".  This should bring up a web page where you can add staff members.
+
+That looks like this:
