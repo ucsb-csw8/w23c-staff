@@ -40,9 +40,20 @@ If/when instructors/TAs practice with iClicker, this may create "class meetings"
 
 That may create messages that confuse students such as  "1 recorded absence" or "2 recorded absences".
 
-To avoid this: be sure that if you do any practice sessions, you delete these promptly.
+To avoid this: be sure that if you do any practice sessions, you delete these promptly. (see below)
 
-Here's what that looks like:
+# Deleting practice sessions
+
+To delete a practice session:
+
+* In iClicker Cloud, go to the three dots menu, and select `View Course Online`
+* Then visit `Class History` in the left navigation, and click the `Delete` button at upper left
+  <img width="1054" alt="image" src="https://user-images.githubusercontent.com/1119017/212145304-310f3fc3-3e35-41e8-97d0-9781404c47dd.png">
+
+  Stranglely, this doesn't delete anything yet, but instead takes you to the page where you can delete things
+* On the page that comes up, you can select the checkbox by the ones that you to delete, as shown in the animation below:
+  ![iclicker-remove-practice-sessions](https://user-images.githubusercontent.com/1119017/212145811-f5111583-8017-4ecb-b9fb-65d14750058c.gif)
+
 
 
 
