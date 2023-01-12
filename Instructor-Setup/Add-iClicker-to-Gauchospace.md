@@ -28,3 +28,8 @@ for your course.
    You should now see `External Tool` as an option. This is what you want.
    
    <img width="772" alt="image" src="https://user-images.githubusercontent.com/1119017/212147155-3df3c599-bffe-4265-be41-8186d74362e5.png">
+7. Now you should see something like this; this is where to enter the URL you copied in step 5 above:
+
+   <img width="858" alt="image" src="https://user-images.githubusercontent.com/1119017/212147437-b30d2b29-8ae0-44df-b0bb-0c4066d33156.png">
+
+8. This is now a link that students can click on to join the course.
